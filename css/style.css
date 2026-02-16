@@ -66,8 +66,13 @@ button {
 }
 .sublist {
   list-style: none;
+  border: 1px solid #00ff00;
 }
 .sublist > li::marker {
   content: "\2713";
-  color: red;
+  color: #00ff00;
+}
+.sublist > li.unchecked::marker {
+  content: "\2717";
+  color: #ff0000;
 }
