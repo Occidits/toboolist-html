@@ -8,6 +8,12 @@
 
 /* Utils */
 body {
+  background-color: #f6f8f9;
+}
+
+.container {
+  max-width: 600px;
+  margin: 10px auto;
   background-color: #fff;
 }
 
@@ -19,7 +25,49 @@ h1 {
 }
 
 /* Header */
+header {
+  background-color: #fff;
+}
+
 #logo {
   padding: 10px 15px;
   vertical-align: middle;
+}
+
+/* Buttons */
+.button-section {
+  padding: 10px;
+}
+
+button {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #fff;
+  color: #808080;
+  font-size: 13px;
+}
+
+.button-blue {
+  color: aliceblue;
+  border: 1px solid #1e90ff;
+  background-color: #1e90ff;
+}
+
+/* List */
+.list-title {
+  list-style: none;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+.list-title > li::marker {
+  content: "\25BE";
+  font-size: 12px;
+}
+.sublist {
+  list-style: none;
+}
+.sublist > li::marker {
+  content: "\2713";
+  color: red;
 }
