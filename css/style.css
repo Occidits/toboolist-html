@@ -1,0 +1,25 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", "sans-serif";
+}
+
+/* Utils */
+body {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 1000;
+  display: inline;
+  vertical-align: middle;
+}
+
+/* Header */
+#logo {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
