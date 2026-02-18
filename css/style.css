@@ -12,8 +12,9 @@ body {
 }
 
 .container {
+  padding: 0px 30px;
   max-width: 600px;
-  margin: 10px auto;
+  margin: 20px auto;
   background-color: #fff;
 }
 
@@ -22,6 +23,10 @@ h1 {
   font-weight: 1000;
   display: inline;
   vertical-align: middle;
+}
+
+h3 {
+  display: inline;
 }
 
 /* Header */
@@ -36,6 +41,7 @@ header {
 
 /* Buttons */
 .button-section {
+  margin: 5px 0px 25px;
   padding: 10px;
 }
 
@@ -60,19 +66,33 @@ button {
   vertical-align: middle;
   margin: 0 2px;
 }
-.list-title > li::marker {
+.list-title > li::before {
+  display: inline-flex;
   content: "\25BE";
   font-size: 12px;
+  vertical-align: middle;
+  translate: 0 -2px;
 }
 .sublist {
   list-style: none;
-  border: 1px solid #00ff00;
+  margin: 15px 0;
 }
-.sublist > li::marker {
+.sublist > li::before {
+  margin: 5px;
+  display: inline-flex;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  justify-content: right;
+  align-items: center;
+}
+.sublist > li.checked::before {
   content: "\2713";
   color: #00ff00;
 }
-.sublist > li.unchecked::marker {
+.sublist > li.unchecked::before {
   content: "\2717";
   color: #ff0000;
 }
