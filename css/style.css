@@ -96,3 +96,38 @@ button {
   content: "\2717";
   color: #ff0000;
 }
+
+/* List Badges */
+.badge {
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+  padding: 2px 5px;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 30px;
+  vertical-align: middle;
+}
+.bg-color-blue {
+  background-color: #45abea;
+  border: 1px solid #45abea;
+}
+.bg-color-purple {
+  background-color: #9c72e4;
+  border: 1px solid #9c72e4;
+}
+.bg-color-green {
+  background-color: #64c0a9;
+  border: 1px solid #64c0a9;
+}
+.bg-color-orange {
+  background-color: #f29e33;
+  border: 1px solid #f29e33;
+}
+.bg-color-pink {
+  background-color: #d863a1;
+  border: 1px solid #d863a1;
+}
+.bg-color-lemon {
+  background-color: #b0c926;
+  border: 1px solid #b0c926;
+}
